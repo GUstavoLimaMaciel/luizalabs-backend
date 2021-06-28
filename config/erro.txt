@@ -1,0 +1,14 @@
+sucesso
+200 ok - retorno de ojeto
+204 ok - no content
+
+erros aplicação
+400 bad request - falta de parameto
+401 unauthorized - sem autorização
+403 forbidden - proibido
+404 not found - não encontrado
+405 method not allowed - method não disponivel
+
+erro serviço
+500 internal server error - erro em geral
+

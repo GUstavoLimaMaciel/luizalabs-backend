@@ -1,0 +1,38 @@
+{
+  "name": "backend-web",
+  "version": "1.0.0",
+  "description": "Backend luiza labs web",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "pm2-runtime start ecosystem.config.js --env production"
+  },
+  "author": "Luiza Labs (Gustavo Maciel)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "env": "0.0.2",
+    "express": "^4.17.1",
+    "express-query-int": "^3.0.0",
+    "express-validator": "^6.12.0",
+    "generate-password": "^1.6.0",
+    "knex": "^0.95.6",
+    "lodash": "^4.17.10",
+    "md5": "^2.3.0",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.27",
+    "mysql": "^2.16.0",
+    "node-cpf": "^1.1.1",
+    "pm2": "^5.1.0",
+    "restify": "^7.x.x",
+    "restify-cors-middleware": "^1.1.1",
+    "restify-routing": "^0.3.11",
+    "underscore": "^1.13.1",
+    "validator": "^13.6.0",
+    "tarn": "^3.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "knex": "^0.95.6"
+  }
+}
