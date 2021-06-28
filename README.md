@@ -4,7 +4,7 @@ Create `luizalabs` database
 
 Apply creation tables bellow:
 
-`-- luizalabs.clientes definition
+```-- luizalabs.clientes definition
 
 CREATE TABLE `clientes` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -13,9 +13,9 @@ CREATE TABLE `clientes` (
   `sexo` varchar(1) NOT NULL,
   `email` varchar(100) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;`
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;```
 
-`-- luizalabs.produtos definition
+```-- luizalabs.produtos definition
 
 CREATE TABLE `produtos` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -24,6 +24,6 @@ CREATE TABLE `produtos` (
   `tamanho` float DEFAULT NULL,
   `valor` float NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;`
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;```
 
 Run `npm run dev` to test dev
